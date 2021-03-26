@@ -21,9 +21,9 @@ def countword():
     #with open('filename') as f:
     #    lines = f.readlines()
     f = f.splitlines()
-    word = f[0]
+    word = f[0].lower()
     count  = 1
-    print(word)
+    #print(word)
     
     for line in f:
         tline = line.split(sep = " ")
