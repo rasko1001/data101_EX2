@@ -18,6 +18,8 @@ def revword(str):
 def countword():
     #path = r'text.txt'
     f = open('text.txt', "r").read()
+    #with open('filename') as f:
+    #    lines = f.readlines()
     f = f.splitlines()
     word = f[0]
     count  = 1
