@@ -16,8 +16,8 @@ def revword(str):
 
 
 def countword():
-    path = r'C:\Users\Noam\Desktop\studies\data101\EX2\text.txt'
-    f = open(path, "r").read()
+    #path = r'text.txt'
+    f = open('text.txt', "r").read()
     f = f.splitlines()
     word = f[0]
     count  = 1
