@@ -31,8 +31,8 @@ def countword():
 
     return count
 
-print(revword("dlroW"))   
-print(countword()) 
+#print(revword("dlroW"))   
+#print(countword()) 
 
 
     
